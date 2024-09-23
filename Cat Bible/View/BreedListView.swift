@@ -1,0 +1,19 @@
+//
+//  BreedListView.swift
+//  Cat Bible
+//
+//  Created by Anıl Öncül on 23.09.2024.
+//
+
+import SwiftUI
+
+struct BreedListView: View {
+    let breeds: [Breed]
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+#Preview {
+    BreedListView(breeds: [Breed]())
+}
