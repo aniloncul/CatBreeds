@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5E828502CA1F0FB00CBFFF1 /* Cat_BibleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E8284F2CA1F0FB00CBFFF1 /* Cat_BibleApp.swift */; };
+		D5E828522CA1F0FB00CBFFF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E828512CA1F0FB00CBFFF1 /* ContentView.swift */; };
+		D5E828542CA1F0FB00CBFFF1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E828532CA1F0FB00CBFFF1 /* Item.swift */; };
+		D5E828562CA1F0FD00CBFFF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E828552CA1F0FD00CBFFF1 /* Assets.xcassets */; };
+		D5E828592CA1F0FD00CBFFF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E828582CA1F0FD00CBFFF1 /* Preview Assets.xcassets */; };
+		D5E828632CA1F0FD00CBFFF1 /* Cat_BibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E828622CA1F0FD00CBFFF1 /* Cat_BibleTests.swift */; };
+		D5E8286D2CA1F0FD00CBFFF1 /* Cat_BibleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E8286C2CA1F0FD00CBFFF1 /* Cat_BibleUITests.swift */; };
+		D5E8286F2CA1F0FD00CBFFF1 /* Cat_BibleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E8286E2CA1F0FD00CBFFF1 /* Cat_BibleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5E8285F2CA1F0FD00CBFFF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E828442CA1F0FB00CBFFF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E8284B2CA1F0FB00CBFFF1;
+			remoteInfo = "Cat Bible";
+		};
+		D5E828692CA1F0FD00CBFFF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E828442CA1F0FB00CBFFF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E8284B2CA1F0FB00CBFFF1;
+			remoteInfo = "Cat Bible";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5E8284C2CA1F0FB00CBFFF1 /* Cat Bible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat Bible.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E8284F2CA1F0FB00CBFFF1 /* Cat_BibleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_BibleApp.swift; sourceTree = "<group>"; };
+		D5E828512CA1F0FB00CBFFF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5E828532CA1F0FB00CBFFF1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D5E828552CA1F0FD00CBFFF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5E828582CA1F0FD00CBFFF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5E8285E2CA1F0FD00CBFFF1 /* Cat BibleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat BibleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E828622CA1F0FD00CBFFF1 /* Cat_BibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_BibleTests.swift; sourceTree = "<group>"; };
+		D5E828682CA1F0FD00CBFFF1 /* Cat BibleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat BibleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E8286C2CA1F0FD00CBFFF1 /* Cat_BibleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_BibleUITests.swift; sourceTree = "<group>"; };
+		D5E8286E2CA1F0FD00CBFFF1 /* Cat_BibleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_BibleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5E828492CA1F0FB00CBFFF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E8285B2CA1F0FD00CBFFF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E828652CA1F0FD00CBFFF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5E828432CA1F0FB00CBFFF1 = {
+			isa = PBXGroup;
+			children = (
+				D5E8284E2CA1F0FB00CBFFF1 /* Cat Bible */,
+				D5E828612CA1F0FD00CBFFF1 /* Cat BibleTests */,
+				D5E8286B2CA1F0FD00CBFFF1 /* Cat BibleUITests */,
+				D5E8284D2CA1F0FB00CBFFF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E8284D2CA1F0FB00CBFFF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E8284C2CA1F0FB00CBFFF1 /* Cat Bible.app */,
+				D5E8285E2CA1F0FD00CBFFF1 /* Cat BibleTests.xctest */,
+				D5E828682CA1F0FD00CBFFF1 /* Cat BibleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5E8284E2CA1F0FB00CBFFF1 /* Cat Bible */ = {
+			isa = PBXGroup;
+			children = (
+				D5E8284F2CA1F0FB00CBFFF1 /* Cat_BibleApp.swift */,
+				D5E828512CA1F0FB00CBFFF1 /* ContentView.swift */,
+				D5E828532CA1F0FB00CBFFF1 /* Item.swift */,
+				D5E828552CA1F0FD00CBFFF1 /* Assets.xcassets */,
+				D5E828572CA1F0FD00CBFFF1 /* Preview Content */,
+			);
+			path = "Cat Bible";
+			sourceTree = "<group>";
+		};
+		D5E828572CA1F0FD00CBFFF1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5E828582CA1F0FD00CBFFF1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5E828612CA1F0FD00CBFFF1 /* Cat BibleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E828622CA1F0FD00CBFFF1 /* Cat_BibleTests.swift */,
+			);
+			path = "Cat BibleTests";
+			sourceTree = "<group>";
+		};
+		D5E8286B2CA1F0FD00CBFFF1 /* Cat BibleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E8286C2CA1F0FD00CBFFF1 /* Cat_BibleUITests.swift */,
+				D5E8286E2CA1F0FD00CBFFF1 /* Cat_BibleUITestsLaunchTests.swift */,
+			);
+			path = "Cat BibleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5E8284B2CA1F0FB00CBFFF1 /* Cat Bible */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E828722CA1F0FD00CBFFF1 /* Build configuration list for PBXNativeTarget "Cat Bible" */;
+			buildPhases = (
+				D5E828482CA1F0FB00CBFFF1 /* Sources */,
+				D5E828492CA1F0FB00CBFFF1 /* Frameworks */,
+				D5E8284A2CA1F0FB00CBFFF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cat Bible";
+			productName = "Cat Bible";
+			productReference = D5E8284C2CA1F0FB00CBFFF1 /* Cat Bible.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5E8285D2CA1F0FD00CBFFF1 /* Cat BibleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E828752CA1F0FD00CBFFF1 /* Build configuration list for PBXNativeTarget "Cat BibleTests" */;
+			buildPhases = (
+				D5E8285A2CA1F0FD00CBFFF1 /* Sources */,
+				D5E8285B2CA1F0FD00CBFFF1 /* Frameworks */,
+				D5E8285C2CA1F0FD00CBFFF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E828602CA1F0FD00CBFFF1 /* PBXTargetDependency */,
+			);
+			name = "Cat BibleTests";
+			productName = "Cat BibleTests";
+			productReference = D5E8285E2CA1F0FD00CBFFF1 /* Cat BibleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5E828672CA1F0FD00CBFFF1 /* Cat BibleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E828782CA1F0FD00CBFFF1 /* Build configuration list for PBXNativeTarget "Cat BibleUITests" */;
+			buildPhases = (
+				D5E828642CA1F0FD00CBFFF1 /* Sources */,
+				D5E828652CA1F0FD00CBFFF1 /* Frameworks */,
+				D5E828662CA1F0FD00CBFFF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E8286A2CA1F0FD00CBFFF1 /* PBXTargetDependency */,
+			);
+			name = "Cat BibleUITests";
+			productName = "Cat BibleUITests";
+			productReference = D5E828682CA1F0FD00CBFFF1 /* Cat BibleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5E828442CA1F0FB00CBFFF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D5E8284B2CA1F0FB00CBFFF1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D5E8285D2CA1F0FD00CBFFF1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D5E8284B2CA1F0FB00CBFFF1;
+					};
+					D5E828672CA1F0FD00CBFFF1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D5E8284B2CA1F0FB00CBFFF1;
+					};
+				};
+			};
+			buildConfigurationList = D5E828472CA1F0FB00CBFFF1 /* Build configuration list for PBXProject "Cat Bible" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5E828432CA1F0FB00CBFFF1;
+			productRefGroup = D5E8284D2CA1F0FB00CBFFF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5E8284B2CA1F0FB00CBFFF1 /* Cat Bible */,
+				D5E8285D2CA1F0FD00CBFFF1 /* Cat BibleTests */,
+				D5E828672CA1F0FD00CBFFF1 /* Cat BibleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5E8284A2CA1F0FB00CBFFF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E828592CA1F0FD00CBFFF1 /* Preview Assets.xcassets in Resources */,
+				D5E828562CA1F0FD00CBFFF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E8285C2CA1F0FD00CBFFF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E828662CA1F0FD00CBFFF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5E828482CA1F0FB00CBFFF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E828522CA1F0FB00CBFFF1 /* ContentView.swift in Sources */,
+				D5E828542CA1F0FB00CBFFF1 /* Item.swift in Sources */,
+				D5E828502CA1F0FB00CBFFF1 /* Cat_BibleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E8285A2CA1F0FD00CBFFF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E828632CA1F0FD00CBFFF1 /* Cat_BibleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E828642CA1F0FD00CBFFF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E8286F2CA1F0FD00CBFFF1 /* Cat_BibleUITestsLaunchTests.swift in Sources */,
+				D5E8286D2CA1F0FD00CBFFF1 /* Cat_BibleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5E828602CA1F0FD00CBFFF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E8284B2CA1F0FB00CBFFF1 /* Cat Bible */;
+			targetProxy = D5E8285F2CA1F0FD00CBFFF1 /* PBXContainerItemProxy */;
+		};
+		D5E8286A2CA1F0FD00CBFFF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E8284B2CA1F0FB00CBFFF1 /* Cat Bible */;
+			targetProxy = D5E828692CA1F0FD00CBFFF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5E828702CA1F0FD00CBFFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5E828712CA1F0FD00CBFFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E828732CA1F0FD00CBFFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cat Bible/Preview Content\"";
+				DEVELOPMENT_TEAM = NTHQ7L5N6X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aniloncul.Cat-Bible";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5E828742CA1F0FD00CBFFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cat Bible/Preview Content\"";
+				DEVELOPMENT_TEAM = NTHQ7L5N6X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aniloncul.Cat-Bible";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5E828762CA1F0FD00CBFFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTHQ7L5N6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aniloncul.Cat-BibleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat Bible.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cat Bible";
+			};
+			name = Debug;
+		};
+		D5E828772CA1F0FD00CBFFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTHQ7L5N6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aniloncul.Cat-BibleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat Bible.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cat Bible";
+			};
+			name = Release;
+		};
+		D5E828792CA1F0FD00CBFFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTHQ7L5N6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aniloncul.Cat-BibleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cat Bible";
+			};
+			name = Debug;
+		};
+		D5E8287A2CA1F0FD00CBFFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTHQ7L5N6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aniloncul.Cat-BibleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cat Bible";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5E828472CA1F0FB00CBFFF1 /* Build configuration list for PBXProject "Cat Bible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E828702CA1F0FD00CBFFF1 /* Debug */,
+				D5E828712CA1F0FD00CBFFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E828722CA1F0FD00CBFFF1 /* Build configuration list for PBXNativeTarget "Cat Bible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E828732CA1F0FD00CBFFF1 /* Debug */,
+				D5E828742CA1F0FD00CBFFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E828752CA1F0FD00CBFFF1 /* Build configuration list for PBXNativeTarget "Cat BibleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E828762CA1F0FD00CBFFF1 /* Debug */,
+				D5E828772CA1F0FD00CBFFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E828782CA1F0FD00CBFFF1 /* Build configuration list for PBXNativeTarget "Cat BibleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E828792CA1F0FD00CBFFF1 /* Debug */,
+				D5E8287A2CA1F0FD00CBFFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5E828442CA1F0FB00CBFFF1 /* Project object */;
+}
