@@ -96,6 +96,9 @@
 		D5E8284E2CA1F0FB00CBFFF1 /* Cat Bible */ = {
 			isa = PBXGroup;
 			children = (
+				D5E8287E2CA1F41000CBFFF1 /* View Model */,
+				D5E8287C2CA1F1FD00CBFFF1 /* Model */,
+				D5E8287B2CA1F1F400CBFFF1 /* View */,
 				D5E8284F2CA1F0FB00CBFFF1 /* Cat_BibleApp.swift */,
 				D5E828512CA1F0FB00CBFFF1 /* ContentView.swift */,
 				D5E828532CA1F0FB00CBFFF1 /* Item.swift */,
@@ -128,6 +131,27 @@
 				D5E8286E2CA1F0FD00CBFFF1 /* Cat_BibleUITestsLaunchTests.swift */,
 			);
 			path = "Cat BibleUITests";
+			sourceTree = "<group>";
+		};
+		D5E8287B2CA1F1F400CBFFF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D5E8287C2CA1F1FD00CBFFF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D5E8287E2CA1F41000CBFFF1 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
